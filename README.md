@@ -14,6 +14,12 @@ To download skeleton only (ready to start environment):
 
 ~~~~
 git clone -b skeleton git@github.com:Raigyo/express-locallibrary.git
+~~~~
+
+or
+
+~~~~
+git clone -b skeleton-with-routes git@github.com:Raigyo/express-locallibrary.git
 
 npm install
 ~~~~
