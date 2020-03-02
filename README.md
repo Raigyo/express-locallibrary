@@ -10,7 +10,7 @@
 
 xxxxx
 
-To downlon skeleton only (ready to start environment):
+To download skeleton only (ready to start environment):
 
 ~~~~
 git clone -b skeleton git@github.com:Raigyo/express-locallibrary.git
