@@ -10,6 +10,14 @@
 
 xxxxx
 
+To downlon skeleton only (ready to start environment):
+
+~~~~
+git clone -b skeleton git@github.com:Raigyo/express-locallibrary.git
+
+npm install
+~~~~
+
 ------------------
 
 ## Techs covered
@@ -68,11 +76,11 @@ Add in package.json:
 
 On Windows, use this command:
 
-SET DEBUG=express-locallibrary-tutorial:* & npm run devstart
+`SET DEBUG=express-locallibrary-tutorial:* & npm run devstart`
 
 On macOS or Linux, use this command:
 
-DEBUG=express-locallibrary-tutorial:* npm run devstart
+`DEBUG=express-locallibrary-tutorial:* npm run devstart`
 
 ------------------
 
