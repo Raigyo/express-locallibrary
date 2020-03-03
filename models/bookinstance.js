@@ -5,6 +5,7 @@ borrow and includes information about whether the copy is available,
 on what date it is expected back, and "imprint" (or version) details.*/
 
 var mongoose = require('mongoose');
+var moment = require('moment');
 
 var Schema = mongoose.Schema;
 
@@ -22,6 +23,13 @@ BookInstanceSchema
 .virtual('url')
 .get(function () {
   return '/catalog/bookinstance/' + this._id;
+});
+
+//Add the virtual property due_back_formatted (date format)
+BookInstanceSchema
+.virtual('due_back_formatted')
+.get(function () {
+  return moment(this.due_back).format('DD-MM-YYYY');
 });
 
 //Export model

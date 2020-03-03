@@ -104,6 +104,14 @@ Async is a utility module which provides straight-forward, powerful functions fo
 - async.series() for when we need to ensure that asynchronous operations are performed in series.
 - async.waterfall() for operations that must be run in series, with each operation depending on the results of preceding operations.
 
+### -Moment
+
+Lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates
+
+`npm install moment --save`
+
+[Date formats documentation](https://momentjs.com/docs/#/displaying/)
+
 ### -[populatedb.js](https://raw.githubusercontent.com/hamishwillee/express-locallibrary-tutorial/master/populatedb.js)
 
 `node populatedb '<your atlas mongodb url>'` (don't forget quotes)
