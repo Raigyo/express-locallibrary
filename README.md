@@ -115,6 +115,12 @@ Performs both validation and sanitization of our form data.
 - Validation checks that entered values are appropriate for each field (are in the right range, format, etc.) and that values have been supplied for all required fields.
 - Sanitization removes/replaces characters in the data that might potentially be used to send malicious content to the server.
 
+### -Helmet
+
+Helmet is a middleware package. It can set appropriate HTTP headers that help protect your app from well-known web vulnerabilities.
+
+`npm install helmet --save`
+
 ------------------
 
 ## Ressources
