@@ -39,7 +39,6 @@ cd myApp
 npm install
 
 ~~~~
-
 On Windows, use this command:
 
 `SET DEBUG=express-locallibrary-tutorial:* & npm start`
