@@ -19,7 +19,6 @@ block content
         p This author has no books.
                 
   hr
-  p
-    a.btn.btn-primary(href=author.url+'/delete') Delete author
-  p
+  div(div class="btn-group" role="group")
     a.btn.btn-primary(href=author.url+'/update') Update author
+    a.btn.btn-danger(href=author.url+'/delete') Delete author

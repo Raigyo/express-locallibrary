@@ -98,7 +98,7 @@ exports.book_create_get = function(req, res, next) {
 // Handle book create on POST.
 exports.book_create_post = [
     // Convert the genre to an array.
-    (req, res, next) => {
+    /*(req, res, next) => {
         if(!(req.body.genre instanceof Array)){
             if(typeof req.body.genre==='undefined')
             req.body.genre=[];
@@ -106,7 +106,7 @@ exports.book_create_post = [
             req.body.genre=new Array(req.body.genre);
         }
         next();
-    },
+    },*/
 
     // Validate fields.
     body('title', 'Title must not be empty.').trim().isLength({ min: 1 }),
@@ -117,7 +117,7 @@ exports.book_create_post = [
     // Sanitize fields (using wildcard).
     //wildcard to escape all fields in one go (rather than sanitising them individually)
     sanitizeBody('*').escape(),
-
+    sanitizeBody('genre.*').escape(),
     // Process request after validation and sanitization.
     (req, res, next) => {
 
@@ -160,10 +160,10 @@ exports.book_create_post = [
         else {
             // Data from form is valid. Save book.
             book.save(function (err) {
-                if (err) { return next(err); }
-                   //successful - redirect to new book record.
-                   res.redirect(book.url);
-                });
+              if (err) { return next(err); }
+                 //successful - redirect to new book record.
+              res.redirect(book.url);
+            });
         }
     }
 ];
