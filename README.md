@@ -4,7 +4,7 @@
 
 > 🔨 Library management using Node.js and Express.js. MDN tutorial '[Setting up a Node development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)'.
 
-See the demo on [Heroku]().
+See the **demo** on [Heroku](https://vch-express-library.herokuapp.com/catalog).
 
 ![Node Logo](readme-img/node-logo.jpg)
 
@@ -38,7 +38,7 @@ Delete / Update:
 
 ### Online
 
-See the demo on [Heroku]().
+See the **demo** on [Heroku](https://vch-express-library.herokuapp.com/catalog).
 
 ------------------
 
