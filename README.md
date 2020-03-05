@@ -1,10 +1,10 @@
 # REST API - Setting up a Node.js development environment with Express.js (using Mongoose ORM / MongoDB Atlas): Libray management
 
-*February 2020*
+*March 2020*
 
 > 🔨 Library management using Node.js and Express.js. MDN tutorial '[Setting up a Node development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)'.
 
-See the demo on [Heroku]().
+See the **demo** on [Heroku](https://vch-express-library.herokuapp.com/catalog).
 
 ![Node Logo](readme-img/node-logo.jpg)
 
@@ -38,7 +38,7 @@ Delete / Update:
 
 ### Online
 
-See the demo on [Heroku]().
+See the **demo** on [Heroku](https://vch-express-library.herokuapp.com/catalog).
 
 ------------------
 
@@ -147,6 +147,12 @@ Performs both validation and sanitization of our form data.
 
 - Validation checks that entered values are appropriate for each field (are in the right range, format, etc.) and that values have been supplied for all required fields.
 - Sanitization removes/replaces characters in the data that might potentially be used to send malicious content to the server.
+
+### -Compression
+
+Compression middleware enables GZIP, which supports different compression schemes.
+
+`npm install compression --save`
 
 ### -Helmet
 
