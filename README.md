@@ -4,10 +4,41 @@
 
 > 🔨 Library management using Node.js and Express.js. MDN tutorial '[Setting up a Node development environment](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment)'.
 
+See the demo on [Heroku]().
+
 ![Node Logo](readme-img/node-logo.jpg)
 
 ## About
 
+Library management with CRUD. You can add books, genres, authors and book instances.
+
+![UML shema](readme-img/mongoose_express.png)
+
+Read:
+
+![Capture](readme-img/capture-home.PNG)
+
+Create:
+
+![Capture](readme-img/capture-create.PNG)
+
+Delete / Update:
+
+![Capture](readme-img/capture-delete-update.PNG)
+
+------------------
+
+## How to use
+
+### Local
+
+- Clone the [local-version branch](https://github.com/Raigyo/express-locallibrary/tree/local-version)
+- Tu run: `DEBUG=express-locallibrary-tutorial:* npm run devstart`
+- Open the app using [http://localhost:3000/](http://localhost:3000/)
+
+### Online
+
+See the demo on [Heroku]().
 
 ------------------
 
@@ -15,9 +46,11 @@
 
 - Routes and controllers (MVC)
 ![MVC Schema](readme-img/mvc-express.png)
-- Forms (CRUD) with Validation & Sanitization
+- Views with pug templates
+- Forms (CRUD) with validation & sanitization
 ![Forms](readme-img/forms.png)
 - Using a Database (with Mongoose and MongoDB Atlas)
+- Deployment on Heroku
 
 ------------------
 
