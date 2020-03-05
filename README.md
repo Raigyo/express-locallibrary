@@ -15,12 +15,15 @@ Library management with CRUD. You can add books, genres, authors and book instan
 ![UML shema](readme-img/mongoose_express.png)
 
 Read:
+
 ![Capture](readme-img/capture-home.PNG)
 
 Create:
+
 ![Capture](readme-img/capture-create.PNG)
 
 Delete / Update:
+
 ![Capture](readme-img/capture-delete-update.PNG)
 
 ------------------
