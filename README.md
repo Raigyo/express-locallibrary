@@ -33,7 +33,7 @@ Delete / Update:
 ### Local
 
 - Clone the [local-version branch](https://github.com/Raigyo/express-locallibrary/tree/local-version)
-- Tu run: `DEBUG=express-locallibrary-tutorial:* npm run devstart`
+- To run: `DEBUG=express-locallibrary-tutorial:* npm run devstart`
 - Open the app using [http://localhost:3000/](http://localhost:3000/)
 
 ### Online
